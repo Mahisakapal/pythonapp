@@ -33,5 +33,5 @@ stages:
     script: |
       # Write your commands here
       
-      docker build -t $(DOCKERHUB):$(TAG) .
+      docker build -t $(DOCKERHUB):$(TAG) . && docker images 
 
