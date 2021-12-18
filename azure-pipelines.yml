@@ -33,8 +33,7 @@ stages:
       targetType: 'inline'
       script: |
       # Write your commands here
-      
-          docker build -t $(DOCKERHUB):$(TAG) . && docker images 
+          docker build -t $(DOCKERHUB):$(TAG) . 
       
       
 
